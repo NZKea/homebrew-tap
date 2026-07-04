@@ -14,7 +14,5 @@ cask "razer-mouse-lite" do
 
   app "Razer Mouse Lite.app"
 
-  zap trash: [
-    "~/Library/Preferences/io.github.nzkea.RazerMouseLite.plist",
-  ]
+  zap trash: "~/Library/Preferences/io.github.nzkea.RazerMouseLite.plist"
 end
