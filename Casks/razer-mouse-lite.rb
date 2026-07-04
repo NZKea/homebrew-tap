@@ -10,7 +10,7 @@ cask "razer-mouse-lite" do
   desc "Lightweight menu-bar control for Razer mice — lighting, DPI, battery, no Synapse"
   homepage "https://github.com/NZKea/razer-mouse-lite-macos"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Razer Mouse Lite.app"
 
