@@ -3,7 +3,7 @@
 # each release (make notarize prints the sha256).
 cask "razer-mouse-lite" do
   version "1.0"
-  sha256 "be6af41b3424248df76fbe83ae933d2d22f0643b2bb3d6a10773954511bf5874"
+  sha256 "5016fac25bed75a900df9e479a846897db6af00e6a38875272ec01c144bb2f82"
 
   url "https://github.com/NZKea/razer-mouse-lite-macos/releases/download/v#{version}/RazerMouseLite-#{version}.zip"
   name "Razer Mouse Lite"
